@@ -49,7 +49,6 @@ public class ArraySpiral {
                 c  >= input[0].length || c < 0) {
             return false;  //outOfBound
         }
-
         if (visited[r][c]) {
             return false; //alreadyVisisted
         }
